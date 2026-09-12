@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    /* Background soft blue */
+    background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container utama */
+.container {
+    background-color: white;
+    width: 500px;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Judul */
+h1 {
+    margin-bottom: 10px;
+    color: #3b82f6;
+}
+
+/* Deskripsi */
+.deskripsi {
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+/* Tempat tombol */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Style tombol */
+button {
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+
+    background-color: #60a5fa;
+    color: white;
+
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* Efek ketika mouse diarahkan ke tombol */
+button:hover {
+    background-color: #3b82f6;
+    transform: scale(1.05);
+}
+
+/* Tempat kartu ID */
+#idContainer {
+    margin-top: 30px;
+}
+
+/* Kartu identitas */
+.id-card {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 25px;
+    border-radius: 15px;
+
+    background: linear-gradient(135deg, #93c5fd, #60a5fa);
+
+    color: white;
+    text-align: left;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Judul kartu */
+.id-card h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Isi kartu */
+.id-card p {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+/* Nama dan NIM */
+.label {
+    font-weight: bold;
+}
+
+/* Pesan setelah ID dihapus */
+.pesan-hapus {
+    margin-top: 20px;
+    padding: 15px;
+
+    border-radius: 10px;
+
+    background-color: #dbeafe;
+    color: #3b82f6;
+
+    font-weight: bold;
+}
+
+/* Pesan ketika ID berhasil dibuat */
+.pesan-berhasil {
+    margin-bottom: 15px;
+    padding: 12px;
+
+    border-radius: 10px;
+
+    background-color: #dcfce7;
+    color: #16a34a;
+
+    font-weight: bold;
+}
+
+/* Pesan ketika ID berhasil dihapus */
+.pesan-hapus {
+    padding: 15px;
+
+    border-radius: 10px;
+
+    background-color: #dbeafe;
+    color: #3b82f6;
+
+    font-weight: bold;
+}
+
+
